@@ -1,0 +1,44 @@
+.hate{
+
+    background:  url(https://kartinkinaden.ru/uploads/posts/2020-07/1593743335_66-p-foni-s-risunkami-neba-85.jpg)  ;
+    text-align: center;
+    width: 1000 ;
+    font: 16px arial;
+    margin: 10px;
+    padding: 10px;
+}
+.привет{
+    text-align: center;
+    border: 4px solid brown;
+    background-color: purple;
+}
+.hello{
+    text-align: center;
+    background-color: goldenrod;
+}
+.дароу{
+    text-align: center;
+    background-color: honeydew;
+    border: 2px dotted;
+}
+.hi1{
+    text-align: center;
+    border: firebrick 2px solid;
+    background-color: grey;
+}
+.ляма{
+    text-align: center;
+    background-color: goldenrod;
+}
+.яиду{
+    text-align: center;
+    background-color: red;
+    border: 2px dotted;
+}
+.theend{
+    text-align: center;
+   background-color: pink; 
+   border:  2px solid firebrick;
+}
+
+</style>
