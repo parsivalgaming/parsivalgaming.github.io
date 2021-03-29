@@ -15,7 +15,7 @@ background:#ffffff ;
 margin:0 auto ;
 width: 550px;
 }
-.header{
+.header{ 
  background: #cccccc;
  padding: 10px;   
 }
@@ -24,11 +24,11 @@ width: 550px;
     margin: 13px;
     
 }
-.menuRight{
+.menuRight{ 
     float: right;
     
 }
-.menuLeft{
+.menuLeft{ 
     float: left;
 
 }
