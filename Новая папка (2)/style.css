@@ -1,0 +1,27 @@
+.one{
+    background-color: khaki;
+    width: 655px;
+    padding: 5px;
+    margin: 0 auto;
+}
+.two{
+    border: solid 2px yellow;
+    background-color: violet;
+    width: 25%;
+    float: left;
+    height: 400px;
+}
+.hello{
+    background: violet;
+    border: 2px solid  yellow;
+    width: 75%;
+    height: 400px;
+    margin-left:160px ;
+}
+.bye{
+    background-color: paleturquoise;
+    padding: 5px;
+    margin: 10px;
+
+
+
