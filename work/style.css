@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.одежда{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.кепка{
+    background-image: 
+    url(img/top.png) ;
+}
+
+.очки{
+    margin-left: 55px;
+    margin-top: 15px;
+    display: inline-block;
+    font: 19pt Tahoma;
+    height: 58px;
+    color: white;
+}
+
+.пирсинг{
+    margin-right: 27px;
+    float: right;
+    font: 12pt Arial;
+}
+
+.пирсинг a{
+    display: inline-block;
+    height: 50px;
+    padding: 20px 25px 0px;
+}
+
+.уже-не-знаю{
+    list-style: none;
+}
+
+.пирсинг .уже-не-знаю :hover {
+    background:lightgray;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.пирсинг li{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+span:first-letter {  
+    background-color: white;
+    margin-top: 5px; 
+    margin-left: 5px;
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.футболка{
+    float: left;
+    font: 19 Tahoma;
+    margin-left: 37px;
+    width: 215px;
+ }
+
+ .картинка a {
+     display: inline-block;
+     color: #27a3a7;
+     padding: 7px;
+     width: 201px;
+ }
+
+ .картинка .пятно:hover{
+    background: lightgray;
+ }
+
+ .картинка li{
+     text-align: left;
+ }
+   
+.штаны{
+    width: 900px;
+    background-image: url(img/fon.png);
+    background-repeat: repeat-y;
+    margin-left: 252px;
+}
+
+.карман1{
+    background-color: lightgrey;
+    padding: 7px;
+}
+
+ .мелочь span {
+    display: inline-block;
+    font: 16pt Tahoma;
+    padding: 5px;
+    color: #2778a7;
+    margin-left: 10px;
+}
+
+.ниняю{
+    width: 260px;
+    margin: 10px;
+}
+
+.дырка{
+    float: left;
+    width: 300px;
+}
+
+.aaa{
+    color: #2778a7;
+    margin-left: 20px ;
+}
+
+.ля{
+    display: inline-block;
+    width: 100%;
+    background-color: lightgrey;
+    font: 14pt Tahoma;
+    margin-left: 4px;
+}
+
+.опять{
+    float: left;
+    margin-left: 6px;
+}
+
+.много{
+    float: left;
+    width: 200px;
+}
+
+p {
+    font: 13pt Tahoma;
+    
+}
+
+.классов p{
+    color: #2778a7;
+    float: right;
+    margin-right: 80px;
+}
+
+.eee img{
+    float: right;
+    width: 100px;
+}
+
+.ea{
+    width: 300;
+}
+
+
+
+.кроссы{
+
+}
