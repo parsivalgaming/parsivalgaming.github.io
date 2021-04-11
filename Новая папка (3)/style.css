@@ -1,0 +1,24 @@
+.всё{
+width: 600px;
+margin: 0 auto;
+}
+.блоки{
+display: flex;
+border: 1px solid green;
+padding: 15px;
+ align-items: flex-end;
+ justify-content: space-evenly;
+}
+.блок{
+border: 2px solid red;
+width: 90px;
+}
+.блок1{
+height: 400px;
+}
+.блок2{
+height: 200px;
+}
+.блок3{
+height: 150px;
+}
