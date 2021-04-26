@@ -1,0 +1,293 @@
+@keyframes heart {
+    0%{
+        transform: scale(1, 1);
+    }
+
+    50%{
+        transform: scale(1.3, 1.3);
+    }
+    
+    100%{
+        transform: scale(1, 1);
+    }
+}
+
+.очки:hover{
+    animation: heart .5s infinite;
+}
+
+
+
+.пятно:hover {
+    animation: heart 2s infinite;
+}
+
+.пятно:hover :nth-last-child(){
+    animation: none;
+}
+
+
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.одежда{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.кепка{
+    background-image: 
+    url(img/top.png) ;
+    //position: absolute;
+}
+
+.vidio{
+    
+    // width: 100%;
+    // width: 70px;
+    // object-fit: cover;
+    // object-position: center center;
+    // border-bottom-left-radius: 18px;
+    // border-bottom-right-radius: 18px;
+    // z-index: -1;
+    // position: absolute;
+}
+
+.audio{
+    padding: 7px;
+
+}
+
+ .submenu2.audio{
+    display: block;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: black;
+}
+
+.audio:hover .submenu2{
+    opacity: 1;
+    transition: .5s;
+    visibility: visible;
+}
+
+.submenu2{
+    position: absolute;
+    background-color: #35c4c9;
+    width: 20px;
+    visibility: hidden;
+}
+
+.очки{
+    margin-left: 55px;
+    margin-top: 15px;
+    display: inline-block;
+    font: 19pt Tahoma;
+    height: 58px;
+    color: white;
+}
+
+.пирсинг{
+    margin-right: 27px;
+    float: right;
+    font: 12pt Arial;
+}
+
+.пирсинг a{
+    display: inline-block;
+    height: 50px;
+    padding: 20px 25px 0px;
+}
+
+.уже-не-знаю{
+    list-style: none;
+}
+
+.уже-не-знаю li{
+    display: inline-block;
+}
+
+ .submenu .уже-не-знаю {
+    display: inline-block;
+    white-space: nowrap;
+    
+}
+.уже-не-знаю:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+    
+}
+
+.submenu{
+    position: absolute;
+    background-color: #35c4c9;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.submenu .уже-не-знаю{
+    display: block;
+    
+}
+
+.пирсинг .уже-не-знаю :hover {
+    background:lightgray;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.пирсинг li{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.очки:first-letter {  
+    background-color: white;
+    margin-top: 5px; 
+    margin-left: 5px;
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.футболка{
+    float: left;
+    font: 19 Tahoma;
+    margin-left: 37px;
+    width: 215px;
+ }
+
+ .картинка a {
+     display: inline-block;
+     color: #27a3a7;
+     padding: 7px;
+     width: 201px;
+ }
+
+ .картинка .пятно:hover{
+    background: lightgray;
+ }
+
+ .картинка li{
+     text-align: left;
+ }
+   
+.штаны{
+    width: 900px;
+    background-image: url(img/fon.png);
+    background-repeat: repeat-y;
+    margin-left: 252px;
+}
+
+.карман1{
+    background-color: lightgrey;
+    padding: 7px;
+}
+
+ .мелочь  {
+    display: inline-block;
+    font: 16pt Tahoma;
+    padding: 5px;
+    color: #2778a7;
+    margin-left: 10px;
+}
+
+.ниняю{
+    width: 260px;
+    margin: 10px;
+}
+
+.дырка{
+    float: left;
+    width: 300px;
+}
+
+.aaa{
+    color: #2778a7;
+    margin-left: 20px ;
+}
+
+.ля{
+    display: inline-block;
+    width: 98%;
+    background-color: lightgrey;
+    font: 14pt Tahoma;
+    margin-left: 4px;
+}
+
+.опять{
+    float: left;
+    margin-left: 6px;
+}
+
+.много{
+    float: left;
+    width: 200px;
+}
+
+p {
+    font: 13pt Tahoma;
+padding: 5px;
+}
+
+.классов p{
+    color: #2778a7;
+    padding: 7px;
+    margin-right: 80px;
+}
+
+.eee img{
+    float: right;
+    width: 100px;
+    
+}
+
+.ea{
+    width: 300;
+}
+
+.righttop{
+    display: inline-block;
+    width: 66%;
+    background-color: lightgrey;
+    font: 14pt Tahoma;
+    margin-left: 0px;
+}
+
+.rightdown{
+    display: inline-block;
+    width: 66%;
+    background-color: lightgrey;
+    font: 14pt Tahoma;
+    margin-left: 0px;
+}
+
+.dddd{
+    float: right;
+}
+
+.носок{
+    margin-left: 308px;
+}
+
+
