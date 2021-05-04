@@ -1,0 +1,45 @@
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #bc7d2c;
+    background-color: #ffab40;
+}
+
+.block{
+    background-color:#00b050 ;
+    border: 3px solid #bc7d2c;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.wrapper header{
+    margin-top: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-menu{
+    width: 100%;
+}
+
+.right-menu{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.main{
+    height: 200px;
+}
+
+@media (max-width: 800px) {
+    .right-menu{
+        display: none;
+    }
+}
